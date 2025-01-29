@@ -146,6 +146,36 @@ h3, .h3 {
   }
 }
 
+/* MANDY EDITED CODE ADDED */
+
+.resized-image1 {
+  width: 400px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.resized-image2 {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.row12 {
+  display: flex;
+  justify-content: space-between;
+}
+.column12 img {
+  width: 48%; /* Adjust size as needed */
+  height: auto;
+}
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
